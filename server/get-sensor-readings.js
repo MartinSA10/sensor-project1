@@ -1,4 +1,4 @@
-var sensor = require('node-dht-sensor')
+const sensor = require('node-dht-sensor')
 
 /*
 We abstract away the functionality to read sensor information inside the getSensorReadings function.
